@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: blueviolet;
+  
+  }
+  
+  .parentLeft {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .parentRight {
+    display: flex;
+    justify-content: flex-end;
+   
+
+  }
+  
+  .messageArea {
+    padding: 40px;
+    margin-top: 80px;
+    text-align: center;
+  }
+  
+  .message {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .pp {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border-style: double solid;
+    color:red;
+
+   
+  }
+  
+  .messageContent {
+    background-color: rgb(61, 218, 13);
+    border-radius: 5px;
+    border-bottom-left-radius: 0;
+    padding: 40px;
+    color:blueviolet;
+    /* text-decoration: double underline; */
+    font-size: 20PX;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+  }
+  
+  .userNameAndImageArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  p {
+    text-align: center;
+  }
+  
+  .parentRight .message {
+    flex-direction: row-reverse;
+   /* margin-bottom: 50px; */
+   /* margin-right: 40px; */
+  }
+  
+  .parentRight .messageContent {
+    border-radius: 5px;
+    border-bottom-right-radius: 0;
+  }
+  
+.userName{
+  background-color:cyan;
+  width: 100px;
+}
+
+.inputArea {
+  background-color: black;
+  width: 50%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+  gap: 30px;
+  border-radius: 50px;
+  margin: 0 auto;
+  /* border-color: white; */
+}
+
+
+input {
+  background-color: transparent;
+  width: 100%;
+  border: none;
+  outline: none;
+  color: rgb(61, 218, 13);
+  font-size: 30px;
+  
+}
+  
+button{
+  color:red;
+  background-color: aqua;
+  border-radius: 5px;
+  width: 90px;
+}
+
+
+h1{
+text-align: center;
+font-size: 60px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: 900;
+color: green;
+background-color: cyan;
+height: 80px;
+}
+
+#img1{
+
+  width: 100px;
+position: absolute;
+top: 3px;
+border-radius: 40%;
+align-items: center;
+}
